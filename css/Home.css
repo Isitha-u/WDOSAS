@@ -1,0 +1,303 @@
+/* Navigation styles */
+body { 
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif; /* navigation bar font type */
+  }
+  
+  .topnavigation {
+    overflow: hidden; /* over flow effect and overflow background color */
+    background-color: rgb(44, 170, 27);
+  }
+  
+  .topnavigation a {/* navigation bar text styles */
+    float: left; 
+    color: #000000;/* navigation bar text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnavigation a:hover { /* navigation bar hover effect background color and font color */
+    background-color: rgb(175, 221, 7);
+    color: black;
+  }
+  
+  .topnavigation a.active { /* active page navigation bar color and text color */
+    background-color: #4CAF50;
+    color: white;
+ 
+   
+  
+  }
+
+  header { /* header section background color and text properties */
+    background-color: rgb(219, 164, 93);
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+
+  .mainimg{ /* main image of index page posiioning */
+      position: relative;
+      font-family: Arial;
+
+  }
+
+  .box{ /* text inside the box of main image stylings*/
+      position:absolute;
+      bottom: 40px;
+      right: 40px;
+      background-color: black;
+      background: rgba(0, 0, 0, 0.5);
+      color: blanchedalmond;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 17px;
+
+  }
+
+  .box h3{ /* heading inside box topic font styles */
+    font-size: 30px;
+    color: rgb(230, 220, 134);
+
+  }
+
+  body{ /* whole web page font type */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 { /* all headings 2 style types */
+    background-color: rgb(104, 180, 84);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  section { /* section position */
+    display:-ms-flexbox;
+    display: flex;
+  
+    
+  }
+
+  .ulist{ /* list stylings and properties */
+    -webkit-flex:1;
+    -ms-flex: 1;
+    flex:1;
+    background: rgb(170, 231, 151);
+    padding:40px;
+    
+
+  }
+
+  .ulist list{ /* list content styling */
+    list-style:square;
+    list-style-type:square;
+    padding: 5px;
+    font-size: 20px;
+
+  }
+
+  article{ /* paragraphs inside articles stylings and font styles */
+    -webkit-animation: 5;
+    -ms-flex: 3;
+    flex:3;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(62, 122, 2);
+  }
+
+  footer{ /* footer stylings */
+    background-color: rgb(51, 5, 5);
+    padding: 10px;
+    color: rgb(236, 208, 208);
+    text-align: left;
+  }
+
+  footer .eco{ /* footer content text properties */
+    text-align: left;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 83, 16);
+  }
+
+  footer .eco2{ /* footer heading alignment */
+    text-align: left;
+  }
+
+  
+
+   h3{ /* heading 3 properties */
+ 
+    padding-left: initial;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+      }
+
+      list h3{ /* heading of list styles */
+        color: rgb(92, 136, 11);
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+      }
+
+      .Image2{ /* image alignment */
+        float:right
+      }
+
+    list ol{ /* ordered list text styles */
+      line-height: 20px;
+      list-style-position:inside;
+      padding: 5px;
+      font-size: 20px;
+      text-align: center;
+      
+    } 
+
+    .topicimg{ /* main image position */
+      position: relative;
+      text-align: left;
+      color: black;
+
+    }
+
+    .topic{ /* page topic inside the image styles */
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      color: rgba(0.5, 0.5, 0.5, 0.5);
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+
+    #products{ /* table styles */
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      border: black;
+      border: 5px;
+      
+    }
+
+    #products td, #products th{ /* table box styles/ border and padding */
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    #products tr{ /* table row background color */
+      background-color: rgb(179, 228, 200);
+      
+    }
+
+    
+    
+    #products th{ /* table heading backgroung colors */
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      background-color: rgb(68, 175, 115);
+      color: black;
+
+    }
+
+    
+
+    table list ul{ /* unordered list inside the table */
+      list-style-type: disc;
+
+    }
+
+    tfoot{ /* table footer of the table */
+      text-align: center;
+      font-style:oblique;
+      font-size: 19px;
+    }
+
+    .topicimg2{ /* main image position */
+      position: relative;
+      text-align:right;
+      color: black;
+
+    }
+
+    .topic2{ /* topic inside the image */
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 50px;
+      color: rgb(0, 0, 0);  
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+     a{ /* link text color */
+       color: rgb(116, 92, 15);
+     }
+
+     h4{ /*headings of manufacturer font color and style */
+       color: crimson;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 40px;
+     }
+
+     .button a:link, a:visited{ /* buttons linked to the different style sheets with same html */
+       background-color: tomato;
+       color: rgb(54, 0, 0);
+       padding: 10px;
+       text-align: center;
+       display: inline-block;
+       width: 399%;
+     }
+
+     .button a:hover, a:active{ /* hover effect color of the buttons */
+       background-color: yellow;
+     }
+     
+    @media (max-width:500px){ /* mobile responsive for mobile phones */
+      header, .topnavigation, .mainimg, .box, section, h1, h2, h3, footer, .eco, .eco2{
+        width: 100%;
+      }
+    }
+
+    @media(max-width:800px){/* responsive for tablets */
+      header, .topnavigation, .mainimg, .box, h1, h2, h3, footer, .eco, .eco2{
+        width: 80%;
+        padding: 0;
+      }
+      section{
+        width: 100%;
+      }
+    }
+
+    @media(max-width:500px){ /* mobile responsive for mobile phones */
+      .topicimg, .topic, .topicimg2, .topic2, .manufacture{
+        width: 100%;
+      }
+    }
+
+
+    @media(max-width:800px){ /* responsive for tablets */
+      .topicimg, .topic, .topicimg2, .topic2, .manufacture{
+        width: 80%;
+        padding: 0;
+      }
+    }
+     
+
+  
